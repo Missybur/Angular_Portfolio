@@ -1,3 +1,8 @@
+
+label {
+    color: #fff;
+    }
+
 #missy {
     margin: 0 auto;
     height: auto;
@@ -452,14 +457,16 @@ background: linear-gradient(to left, #00C9FF , #92FE9D); */
   }
 
   #group4 {
-    z-index: 2; /* slide under group 3 and 5 */
+    z-index: 2;
+    /* slide under group 3 and 5 */
   }
   #group4 .parallax__layer--deep {
     background: rgb(15, 206, 245);
   }
 
   #group5 {
-    z-index: 3; /* slide over group 4 and 6 */
+    z-index: 3;
+     /* slide over group 4 and 6 */
   }
   #group5 .parallax__layer--base {
 /*    background: repeating-linear-gradient(
@@ -472,14 +479,16 @@ background: linear-gradient(to left, #00C9FF , #92FE9D); */
   }
 
   #group6 {
-    z-index: 2; /* slide under group 5 and 7 */
+    z-index: 2;
+    /* slide under group 5 and 7 */
   }
   #group6 .parallax__layer--back {
     background: rgb(47, 218, 223);
   }
 
   #group7 {
-    z-index: 3; /* slide over group 7 */
+    z-index: 3;
+    /* slide over group 7 */
   }
   #group7 .parallax__layer--base {
 
