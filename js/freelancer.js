@@ -6,23 +6,7 @@
 
 // jQuery for page scrolling feature - requires jQuery Easing plugin
 
-var myName = "MISSY";
 
-var green = [146, 254, 157];
-var letterColors = [green];
-
-drawName(myName, letterColors);
-
-if(10 < 3)
-{
-    bubbleShape = 'square';
-}
-else
-{
-    bubbleShape = 'circle';
-}
-
-bounceBubbles();
 $(function() {
     $('body').on('click', '.page-scroll a', function(event) {
         var $anchor = $(this);
