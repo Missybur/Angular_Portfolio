@@ -16,6 +16,7 @@
   <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
   <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
   <link href="http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="css/animate.css/animate.min.css">
 </head>
 
 <body id="page-top" class="index">
@@ -28,7 +29,7 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand" href="#page-top">Missy Bur</a>
+        <a class="navbar-brand animated fadeInRightBig" href="#page-top">Missy Bur</a>
       </div>
 
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -37,13 +38,13 @@
             <a href="#page-top"></a>
           </li>
           <li class="page-scroll">
-            <a href="#portfoli">Portfolio</a>
+            <a href="#portfoli" class="animated fadeInLeftBig">Portfolio</a>
           </li>
           <li class="page-scroll">
-            <a href="#abou">About</a>
+            <a href="#abou" class="animated fadeInLeftBig">About</a>
           </li>
           <li class="page-scroll">
-            <a href="#contac">Contact</a>
+            <a href="#contac" class="animated fadeInLeftBig">Contact</a>
           </li>
         </ul>
       </div>
@@ -327,9 +328,11 @@
               <div class="col-lg-12">
                 <img id="missy" class="img-responsive" src="https://avatars2.githubusercontent.com/u/655412?v=3&s=460" alt="">
                 <div class="intro-text">
-                  <span class="name">Missy Bur</span>
-                  <hr class="star-light">
-                  <span class="skills">Full Stack Web Developer</span>
+                  <h1 class="animated fadeInRightBig">Missy Bur</h1>
+                  <hr id="star-light" class="animated swing" >
+                  <!-- <h1 class="star-light" class="animated swing" > -->
+
+                  <h3 class="animated fadeInLeftBig">Full Stack Web Developer</h3>
                 </div>
               </div>
             </div>
@@ -375,7 +378,7 @@
                         </div>
                     <a href="http://missybur.github.io/Missy_Bur/calculator/" class="portfolio-link" data-toggle="modal">
 
-                        <img src="img/portfolio/calc.jpg" class="img-responsive" alt="">
+                        <img src="img/portfolio/calc.jpg" class="img-responsive animated jello" alt="">
                     </a>
                 </div>
                  <div class="col-sm-4 portfolio-item">
@@ -560,13 +563,6 @@ I believe learning to code is the new form of literacy for our generation and am
                             <div class="form-group col-xs-12 floating-label-form-group controls">
                                 <label>Email Address</label>
                                 <input type="email" class="form-control" placeholder="Email Address" id="email" required data-validation-required-message="Please enter your email address.">
-                                <p class="help-block text-danger"></p>
-                            </div>
-                        </div>
-                        <div class="row control-group">
-                            <div class="form-group col-xs-12 floating-label-form-group controls">
-                                <label>Phone Number</label>
-                                <input type="tel" class="form-control" placeholder="Phone Number" id="phone" required data-validation-required-message="Please enter your phone number.">
                                 <p class="help-block text-danger"></p>
                             </div>
                         </div>
