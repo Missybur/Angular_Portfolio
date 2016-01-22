@@ -166,6 +166,7 @@ label {
 }*/
 
 .icon * {
+  transition: transform .4s ease-out;
   transform-origin: 50% 50%;
 }
 
@@ -189,6 +190,15 @@ label {
 .linkedin {
   animation: turn 2.1s 2.5s ease-out backwards;
   fill: #fff;
+}
+
+.github:hover,
+.facebook:hover,
+.twitter:hover,
+.linkedin:hover {
+    transform: rotate(360deg);
+    transition: transform .4s ease-out;
+    transform-origin: 50% 50%;
 }
 
 #navbar {
