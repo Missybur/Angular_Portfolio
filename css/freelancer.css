@@ -1,3 +1,7 @@
+.list-inline {
+    margin-left: 350px;
+}
+
 .flip-container {
     perspective: 1000;
 }
@@ -6,8 +10,8 @@
     }
 
 .flip-container, .front, .back {
-    width: 320px;
-    height: 480px;
+    /*width: 320px;*/
+    /*height: 480px;*/
 }
 
 .flipper {
@@ -75,14 +79,17 @@
   }
 }
 
-#sig_svg {
+/*#sig_svg {
     display: block;
     margin: 2em auto 0;
     width: 40%;
-}
+}*/
 
 .sig {
-stroke: #fff;
+    width: 40%;
+    display: block;
+    margin: 2em auto 0;
+    stroke: #fff;
   stroke-width: 2;
   stroke-dasharray: 810;
   stroke-dashoffset: 810;
@@ -90,6 +97,7 @@ animation: offset 5s linear forwards;
 }
 
 .btn-lg {
+    width: 40%;
     height: 75px;
     width: 75px;
     border-radius: 50%;
@@ -494,7 +502,6 @@ header .intro-text .skills {
 
  #group1 {
     z-index: 5;
-    /* slide over group 2 */
   }
   #group1 .parallax__layer--base {
     background: repeating-linear-gradient
@@ -628,7 +635,7 @@ header .intro-text .skills {
 }
 
 section {
-    padding: 100px 0;
+    /*padding: 100px 0;*/
 }
 
 section h2 {
@@ -781,3 +788,112 @@ section.success a.active {
     display: none;
     opacity: 0;
 }*/
+
+
+
+
+
+
+
+
+/* --------------------------
+  Keyframes
+--------------------------- */
+@keyframes slide {
+  from  { width: 0%;  }
+  to    { width: 100%;  }
+}
+
+@keyframes slide {
+  50% {
+    transform: translatex(0,-10px, 0);
+  }
+  80% {
+    transform: translatey(0,10px,0);
+  }
+  100% {
+    transform: translatez(0,0,0);
+  }
+}
+
+@keyframes grow {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.15) rotate(-5deg);
+    opacity: 1;
+    fill: #fdf097;
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes offset {
+  60% {
+    stroke-opacity: 1;
+  }
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
+
+
+
+/* --------------------------
+  SVG Styles
+--------------------------- */
+
+
+
+.stars * {
+  transform-origin: 50% 50%;
+}
+
+.stars-bg {
+  stroke-opacity: 0;
+  stroke-dasharray: 815;
+  stroke-dashoffset: 815;
+  animation: offset .8s 2.2s linear forwards;
+}
+
+.star {
+  transform: translatex(0, 180px, 0);
+  animation: slide .5s forwards,
+              grow .6s ease-out forwards;
+}
+
+.star:nth-of-type(1) {
+  animation-delay: .5s, 1.8s;
+}
+
+.star:nth-of-type(2) {
+  animation-delay: 0s, 1.5s;
+}
+
+.star:nth-of-type(3) {
+  animation-delay: .5s, 2s;
+}
+
+
+
+
+/* --------------------------
+  Base
+--------------------------- */
+
+
+
+
+
+/* --------------------------
+  Keyframes
+--------------------------- */
+
+
+
+/* --------------------------
+  SVG Styles
+--------------------------- */
+
