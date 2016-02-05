@@ -2,6 +2,15 @@
     margin-left: 350px;
 }
 
+
+.topPortfolioRow {
+    margin-bottom: 200px;
+}
+
+.bottomPortfolioRow {
+    margin-bottom: 90px;
+}
+
 .flip-container {
     perspective: 1000;
 }
@@ -798,11 +807,6 @@ section.success a.active {
     display: none;
     opacity: 0;
 }*/
-
-
-
-
-
 
 
 
