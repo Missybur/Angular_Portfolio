@@ -1,3 +1,25 @@
+.project_description_paragraph {
+  color: rgba(146, 254, 157, 1);
+  font-size: 12px;
+  text-align: center;
+  margin: 20px;
+}
+
+.letsPic {
+  border: 2px solid #ED4599;
+}
+
+.calcPic {
+  border: 2px solid #B26925;
+}
+
+.itemsExchangePic {
+  border: 2px solid #BBD5FF;
+}
+
+.friendFinderPic {
+  border: 1px solid #00558B;
+}
 
 .portfolioRow {
   padding-top: 100px;
@@ -74,8 +96,10 @@
 
 .project_description {
     color: rgba(146, 254, 157, 1);
-    padding-top: 5px;
-    font-size: 14px;
+    padding-top: 2px;
+    font-size: 10px;
+    text-align: center;
+    /*margin: 20px;*/
 }
 
 @keyframes offset {
