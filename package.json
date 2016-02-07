@@ -1,0 +1,24 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "2602:306:cd9e:1720:ed3f:c8d6:8702:1664",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Missybur/Angular_Portfolio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Missybur/Angular_Portfolio/issues"
+  },
+  "homepage": "https://github.com/Missybur/Angular_Portfolio#readme",
+  "dependencies": {
+    "aws-sdk": "^2.2.33",
+    "dotenv": "^2.0.0",
+    "nodemon": "^1.8.1"
+  }
+}

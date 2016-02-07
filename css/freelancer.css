@@ -1,6 +1,10 @@
+.aboutParagraph {
+  text-align: left;
+}
+
 .project_description_paragraph {
   color: rgba(146, 254, 157, 1);
-  font-size: 12px;
+  font-size: 16px;
   text-align: center;
   margin: 20px;
 }
